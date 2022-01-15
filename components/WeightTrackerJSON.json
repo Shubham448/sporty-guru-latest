@@ -1,0 +1,39 @@
+{
+	"weightTrackerData": [{
+		"weight": "50",
+		"date": "7"
+	}, {
+		"weight": "50",
+		"date": "8"
+	}, {
+		"weight": "51",
+		"date": "11"
+	}, {
+		"weight": "51.5",
+		"date": "13"
+	}, {
+		"weight": "51.5",
+		"date": "14"
+	}, {
+		"weight": "50",
+		"date": "18"
+	}, {
+		"weight": "50.5",
+		"date": "21"
+	}, {
+		"weight": "51",
+		"date": "23"
+	}, {
+		"weight": "51",
+		"date": "24"
+	}, {
+		"weight": "52",
+		"date": "29"
+	}],
+	"DrillData": [
+		{
+			
+		}
+	]
+
+}

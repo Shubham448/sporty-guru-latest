@@ -1,0 +1,92 @@
+.setting-modal {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.setting-modal > * {
+  z-index: 10;
+}
+
+.setting-icon img {
+  z-index: 1;
+}
+.setting-icon:hover .setting-modal {
+  visibility: visible;
+  pointer-events: all;
+}
+
+/* .setting-modal:hover {
+pointer-events: all;
+opacity: 1;
+} */
+
+.setting-icon:hover .setting_img {
+  visibility: hidden;
+}
+
+.setting-icon {
+  width: max-content;
+  height: max-content;
+}
+
+.bulb-modal {
+  position: relative;
+}
+
+.bulb-modal > * {
+  z-index: 2;
+}
+
+.bulb-modal::after {
+  content: "";
+  position: absolute;
+  bottom: 60%;
+  left: 73%;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+
+  border-left: 60px solid rgba(196, 196, 196, 1);
+  transform: rotate(-20deg);
+  z-index: 0;
+}
+
+.ActionPlanData::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.ActionPlanData::-webkit-scrollbar-track {
+  background: rgba(39, 39, 39, 1);
+  border-radius: 20px;
+  margin: 5px 0;
+}
+
+.ActionPlanData::-webkit-scrollbar-thumb {
+  background: rgba(130, 130, 130, 1);
+  border-radius: 20px;
+}
+
+.exercise-data::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.exercise-data::-webkit-scrollbar-track {
+  background: rgba(39, 39, 39, 1);
+  border-radius: 20px;
+  margin: 5px 0;
+}
+
+.exercise-data::-webkit-scrollbar-thumb {
+  background: rgba(130, 130, 130, 1);
+  border-radius: 20px;
+}
+
+.stacked {
+  display: grid;
+}
+
+.stacked > * {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
